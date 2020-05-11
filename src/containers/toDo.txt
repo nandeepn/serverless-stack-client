@@ -1,0 +1,11 @@
+1) Some things to add
+Use the Auth.resendSignUp() method to 
+resend the code if the user has not been
+ previously confirmed. Here is a link to 
+ the Amplify API docs
+ Referece:
+  https://serverless-stack.com/chapters/signup-with-aws-cognito.html
+
+2) Allow your users to change their email or password,
+https://serverless-stack.com/chapters/manage-user-accounts-in-aws-amplify.html
+

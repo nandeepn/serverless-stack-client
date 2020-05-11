@@ -6,6 +6,7 @@ import { Nav, Navbar, NavItem } from "react-bootstrap";
 import "./App.css";
 import { AppContext } from "./libs/contextLib";
 import { Auth } from "aws-amplify";
+import { onError } from "./libs/errorLib";
 
 function App() {
   const [isAuthenticating, setIsAuthenticating] = useState(true);
@@ -22,7 +23,7 @@ function App() {
     }
     catch (e) {
       if (e !== 'No current user') {
-        alert(e);
+        onError(e);
       }
     }
 
