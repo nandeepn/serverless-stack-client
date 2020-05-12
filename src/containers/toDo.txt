@@ -9,3 +9,5 @@ resend the code if the user has not been
 2) Allow your users to change their email or password,
 https://serverless-stack.com/chapters/manage-user-accounts-in-aws-amplify.html
 
+3) not deleting the old attachment when we upload a new one
+https://serverless-stack.com/chapters/save-changes-to-a-note.html
