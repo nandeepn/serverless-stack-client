@@ -1,5 +1,6 @@
 export default {
     MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "pk_live_HaROJLBtlNmqZEPDVV2w1I5H",
     s3: {
         REGION: "us-east-1",
         BUCKET: "s-notes-3-27-serverless-stack"
