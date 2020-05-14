@@ -40,7 +40,7 @@ function App() {
         <Navbar fluid collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
-              <Link to="/">NavBar</Link>
+              <Link to="/">A Simple COVID Tracker</Link>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
