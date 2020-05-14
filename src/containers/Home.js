@@ -58,8 +58,8 @@ export default function Home() {
     function renderLander() {
         return (
             <div className="lander">
-                <h1>Simply Covid Tracker</h1>
-                <p>Help Track Covid-19</p>
+                <h1>Landing Page</h1>
+                <p>Help A Simple Note Taking App</p>
                 <div>
                     <Link to="/login" className="btn btn-info btn-lg">
                         Login
