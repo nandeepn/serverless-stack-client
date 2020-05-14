@@ -5,6 +5,7 @@ import { onError } from "../libs/errorLib";
 import "./Home.css";
 import { API } from "aws-amplify";
 import { LinkContainer } from "react-router-bootstrap";
+import { Link } from "react-router-dom";
 
 
 export default function Home() {
@@ -57,8 +58,16 @@ export default function Home() {
     function renderLander() {
         return (
             <div className="lander">
-                <h1>Landing Page</h1>
-                <p>A simple note taking app</p>
+                <h1>Simply Covid Tracker</h1>
+                <p>Help Track Covid-19</p>
+                <div>
+                    <Link to="/login" className="btn btn-info btn-lg">
+                        Login
+        </Link>
+                    <Link to="/signup" className="btn btn-success btn-lg">
+                        Signup
+        </Link>
+                </div>
             </div>
         );
     }
